@@ -1,0 +1,511 @@
+@charset "ISO-8859-1";
+
+#atest {
+	font-size: 50px;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+#testthea {
+	font-size: 50pt;
+}
+
+#body-login {
+	background-color: #6BD3D2;
+}
+/*start dangnhap  */
+#body-login-flex {
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+}
+
+#container-login {
+	display: flex;
+	width: 820px;
+	height: 610px;
+	background-color: white;
+}
+
+#container-login-lelt {
+	display: flex;
+	width: 468px;
+	height: 610px;
+	background-image: url("../image/backgroupdangnhap1.jpg");
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0 16px;
+}
+
+#container-login-right {
+	display: flex;
+	flex: 1;
+	padding: 0px 20px;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.header-text-login {
+	margin-top: 32px;
+}
+
+#text-wellcome {
+	font-size: 48px;
+}
+
+#text-botwellcom {
+	font-size: 12px;
+	opacity: 0.7;
+}
+
+#header-letf {
+	text-align: center;
+	color: white;
+}
+
+#button-letf span {
+	color: white;
+	margin-left: 8px;
+}
+
+#button-letf {
+	margin-bottom: 64px;
+}
+
+#header-top-ritgh {
+	font-size: 20px;
+	color: #B7B7B7;
+}
+
+.activer {
+	background: red;
+}
+
+.activeb {
+	background: blue;
+}
+
+.activeo {
+	background: orange;
+}
+
+.activebl {
+	background: black;
+}
+
+.he {
+	height: 500px;
+}
+
+#iconlogin {
+	align-self: flex-end;
+	margin-bottom: 16px;
+}
+
+.inputlogin {
+	height: 38px;
+	border: 0;
+	background-color: #D8D8D8;
+	width: 100%;
+}
+
+#input-icon-email {
+	background: url("../image/mail-ic.png") no-repeat scroll 8px 3px;
+	height: 38px;
+	border: 0;
+	background-color: #D8D8D8;
+	width: 84%;
+}
+
+#input-icon-password {
+	background: url("../image/lockicon.png") no-repeat scroll 8px 3px;
+	height: 38px;
+	border: 0;
+	background-color: #D8D8D8;
+	width: 84%;
+}
+
+#container-center-ritgh input[type=text] {
+	font-size: 14px;
+	margin-top: 8px;
+	padding-left: 45px
+}
+
+#container-center-ritgh input[type=password] {
+	font-size: 14px;
+	margin-top: 8px;
+	padding-left: 45px
+}
+
+#submit {
+	height: 38px;
+	border: 0;
+	background-color: #FFCC33;
+	width: 100%;
+	margin-top: 20px;
+	font-size: 14px;
+	box-shadow: 5px 10px 18px orange;
+}
+
+.inputiconemail {
+	
+}
+/*end dangnhap*/
+/*start css trang index*/
+#traisp {
+	height: 800px;
+	padding-top: 30px;
+	background-color: aquamarine;
+}
+.buttonleft{
+	height: 56px;
+    width: 184px;
+    text-align: center !important;
+}
+
+#header {
+	height: 700px;
+	background: linear-gradient(rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)),
+		url("../image/header1.jpg") no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#footer {
+	height: 170px;
+	background: linear-gradient(rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)),
+		url("../image/footer1.png") no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: white;
+	padding-top: 48px;
+}
+
+.title-footer {
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+
+.none_nav {
+	background: none !important;
+	border: none !important;
+}
+
+.navbar-center {
+	margin-left: 25% !important;
+}
+
+.navbar-nav a {
+	color: white !important;
+}
+
+.active>a {
+	color: #0167ff !important;
+	background: none !important;
+	font-weight: bold;
+}
+
+.open>a {
+	color: #0167ff !important;
+	background: none !important;
+	font-weight: bold;
+}
+
+.drapdown-menu {
+	background-color: #0167ff !important;
+}
+
+.event_header {
+	text-align: center;
+	margin-top: 216px;
+}
+
+.event_header>span {
+	color: white;
+}
+
+.event_header>button {
+	color: white;
+	background-color: #39FFE1;
+	border: #39FFE1;
+}
+
+.iconcl {
+	width: 48px;
+	height: 48px;
+}
+
+#info {
+	text-align: center;
+	margin-top: 36px;
+}
+
+.textcl {
+	font-weight: bold;
+	font-size: 32px;
+}
+
+.textcln {
+	font-size: 12px;
+}
+
+#tieude-sanpham {
+	padding-top: 48px;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+}
+#bodyadmin{
+	padding-bottom:30px; 
+}
+.sanpham {
+	padding: 16px;
+	margin-top: 46px;
+	margin-bottom: 46px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	border-radius: 1px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+
+.gia {
+	font-size: 16px;
+	color: green;
+	margin-bottom: 16px;
+	padding-bottom: 16px;
+}
+
+.sanpham img {
+	height: 100px;
+}
+
+.textfooter {
+	text-align: center;
+	margin-top: -24px;
+}
+
+@media ( max-width : 575.98px) {
+	.navbar-center {
+		margin-left: 0 !important;
+	}
+	#footer {
+		height: 322px;
+		background: linear-gradient(rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)),
+			url("../image/footer1.png") no-repeat center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		color: white;
+	}
+}
+
+#navleft {
+	text-align: left;
+}
+
+@media ( min-width : 576px) and (max-width: 767.98px) {
+	.navbar-center {
+		margin-left: 0 !important;
+	}
+	#footer {
+		height: 240px;
+		background: linear-gradient(rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)),
+			url("../image/footer1.png") no-repeat center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		color: white;
+	}
+}
+
+@media ( min-width : 768px) and (max-width: 991.98px) {
+	.navbar-center {
+		margin-left: 8% !important;
+	}
+}
+
+@media ( min-width : 992px) and (max-width: 1199.98px) {
+}
+
+@media ( min-width : 1200px) {
+}
+/*end css trang index */
+/*Start nhan vien*/
+#nhanvien {
+	margin-top: 48px;
+	margin-bottom: 48px
+}
+
+.nhanvieninut {
+	margin-top:32px;
+	width:100%;
+}
+#inputkhnv{
+	width: 100%;
+}
+
+.quanli {
+	margin-top: 55px;
+}
+/*End  nhan vien*/
+/*Start khachhang*/
+#khachhang {
+	margin-top: 48px;
+	margin-bottom: 48px
+}
+/*End khachhang*/
+.card-container.card {
+    max-width: 350px;
+    padding: 40px 40px;
+}
+
+.btn {
+    font-weight: 700;
+    height: 36px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+/*
+ * Card component
+ */
+.card {
+    background-color: #F7F7F7;
+    /* just in case there no content*/
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+/*
+ * Form styles
+ */
+.profile-name-card {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 0;
+    min-height: 1em;
+}
+
+.reauth-email {
+    display: block;
+    color: #404040;
+    line-height: 2;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin #inputEmail,
+.form-signin #inputPassword {
+    direction: ltr;
+    height: 44px;
+    font-size: 16px;
+}
+
+.form-signin input[type=email],
+.form-signin input[type=password],
+.form-signin input[type=text],
+.form-signin button {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    z-index: 1;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+    border-color: rgb(104, 145, 162);
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+}
+
+.btn.btn-signin {
+    /*background-color: #4d90fe; */
+    background-color: rgb(104, 145, 162);
+    /* background-color: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));*/
+    padding: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    height: 36px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+}
+
+.btn.btn-signin:hover,
+.btn.btn-signin:active,
+.btn.btn-signin:focus {
+    background-color: rgb(12, 97, 33);
+}
+
+.forgot-password {
+    color: rgb(104, 145, 162);
+}
+
+.forgot-password:hover,
+.forgot-password:active,
+.forgot-password:focus{
+    color: rgb(12, 97, 33);
+}
+/*Start thm khachhang*/
+#themKH{
+	    margin-left: 666px;
+}
+/* trang chi tiet */
+.hinh{
+	width: 100%;
+}
+#trangchitiet{
+    padding-top: 120px;
+}
+/* trang chi tiet */
